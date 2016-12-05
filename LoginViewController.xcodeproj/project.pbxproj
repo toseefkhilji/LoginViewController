@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		F2DFE80B1DF56A4300E9046E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFE80A1DF56A4300E9046E /* AppDelegate.swift */; };
 		F2DFE80D1DF56A4300E9046E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFE80C1DF56A4300E9046E /* ViewController.swift */; };
-		F2DFE8101DF56A4300E9046E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DFE80E1DF56A4300E9046E /* Main.storyboard */; };
 		F2DFE8121DF56A4300E9046E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DFE8111DF56A4300E9046E /* Assets.xcassets */; };
 		F2DFE8151DF56A4300E9046E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DFE8131DF56A4300E9046E /* LaunchScreen.storyboard */; };
+		F2DFE81E1DF56A5300E9046E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DFE81D1DF56A5300E9046E /* Main.storyboard */; };
+		F2DFE8201DF56A5700E9046E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFE81F1DF56A5700E9046E /* LoginViewController.swift */; };
+		F2DFE8241DF56ABB00E9046E /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFE8211DF56ABB00E9046E /* SkyFloatingLabelTextField.swift */; };
+		F2DFE8251DF56ABB00E9046E /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFE8221DF56ABB00E9046E /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		F2DFE8261DF56ABB00E9046E /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DFE8231DF56ABB00E9046E /* UITextField+fixCaretPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F2DFE8071DF56A4300E9046E /* LoginViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DFE80A1DF56A4300E9046E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2DFE80C1DF56A4300E9046E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2DFE80F1DF56A4300E9046E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2DFE8111DF56A4300E9046E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2DFE8141DF56A4300E9046E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2DFE8161DF56A4300E9046E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DFE81C1DF56A5300E9046E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2DFE81F1DF56A5700E9046E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F2DFE8211DF56ABB00E9046E /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		F2DFE8221DF56ABB00E9046E /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		F2DFE8231DF56ABB00E9046E /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,24 @@
 			children = (
 				F2DFE80A1DF56A4300E9046E /* AppDelegate.swift */,
 				F2DFE80C1DF56A4300E9046E /* ViewController.swift */,
-				F2DFE80E1DF56A4300E9046E /* Main.storyboard */,
+				F2DFE81F1DF56A5700E9046E /* LoginViewController.swift */,
+				F2DFE8271DF56AC100E9046E /* SkyFloatingLabelTextField */,
+				F2DFE81D1DF56A5300E9046E /* Main.storyboard */,
 				F2DFE8111DF56A4300E9046E /* Assets.xcassets */,
 				F2DFE8131DF56A4300E9046E /* LaunchScreen.storyboard */,
 				F2DFE8161DF56A4300E9046E /* Info.plist */,
 			);
 			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		F2DFE8271DF56AC100E9046E /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				F2DFE8211DF56ABB00E9046E /* SkyFloatingLabelTextField.swift */,
+				F2DFE8221DF56ABB00E9046E /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				F2DFE8231DF56ABB00E9046E /* UITextField+fixCaretPosition.swift */,
+			);
+			name = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DFE81E1DF56A5300E9046E /* Main.storyboard in Resources */,
 				F2DFE8151DF56A4300E9046E /* LaunchScreen.storyboard in Resources */,
 				F2DFE8121DF56A4300E9046E /* Assets.xcassets in Resources */,
-				F2DFE8101DF56A4300E9046E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DFE8261DF56ABB00E9046E /* UITextField+fixCaretPosition.swift in Sources */,
+				F2DFE8201DF56A5700E9046E /* LoginViewController.swift in Sources */,
+				F2DFE8251DF56ABB00E9046E /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
 				F2DFE80D1DF56A4300E9046E /* ViewController.swift in Sources */,
+				F2DFE8241DF56ABB00E9046E /* SkyFloatingLabelTextField.swift in Sources */,
 				F2DFE80B1DF56A4300E9046E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,20 +168,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F2DFE80E1DF56A4300E9046E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2DFE80F1DF56A4300E9046E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2DFE8131DF56A4300E9046E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F2DFE8141DF56A4300E9046E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F2DFE81D1DF56A5300E9046E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2DFE81C1DF56A5300E9046E /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../../iOSTest/iOSTest;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
