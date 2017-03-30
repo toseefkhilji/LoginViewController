@@ -1,0 +1,6 @@
+framework module Pods_LoginViewController {
+  umbrella header "Pods-LoginViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
